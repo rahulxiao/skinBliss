@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - SkinBliss</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="public/images/logo.jpeg" alt="SkinBliss Logo" class="logo-img">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html" class="active">Products</a></li>
+                        <li><a href="#brands">Brands</a></li>
+                        <li><a href="#skincare">Skin Care</a></li>
+                        <li><a href="#special">Special Sale</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search products...">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <a href="#" class="wishlist-icon"><i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#brands">Brands</a></li>
+            <li><a href="#skincare">Skin Care</a></li>
+            <li><a href="#special">Special Sale</a></li>
+        </ul>
+    </div>
+
+    <section class="products-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="products.html">Products</a>
+            </div>
+            
+            <h1 class="section-title">All Products</h1>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <h3 class="filter-title">Brand</h3>
+                    <div class="filter-options">
+                        <div class="filter-brand filter-option" data-brand="Heimish">Heimish</div>
+                        <div class="filter-brand filter-option" data-brand="Bonajour">Bonajour</div>
+                        <div class="filter-brand filter-option" data-brand="APLB">APLB</div>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <h3 class="filter-title">Category</h3>
+                    <div class="filter-options">
+                        <div class="filter-tag filter-option" data-tag="moisturizer">Moisturizer</div>
+                        <div class="filter-tag filter-option" data-tag="serum">Serum</div>
+                        <div class="filter-tag filter-option" data-tag="cleanser">Cleanser</div>
+                        <div class="filter-tag filter-option" data-tag="toner">Toner</div>
+                        <div class="filter-tag filter-option" data-tag="oil">Oil</div>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <h3 class="filter-title">Price</h3>
+                    <div class="filter-options">
+                        <div class="filter-price filter-option" data-price-range="0-1000">Under ৳1,000</div>
+                        <div class="filter-price filter-option" data-price-range="1000-1500">৳1,000 - ৳1,500</div>
+                        <div class="filter-price filter-option" data-price-range="1500-2000">৳1,500 - ৳2,000</div>
+                        <div class="filter-price filter-option" data-price-range="2000-0">Over ৳2,000</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="products-container">
+                <div class="products-grid" id="productsContainer">
+                    <!-- Products will be loaded here by JavaScript -->
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>SkinBliss</h3>
+                    <p>We are the exclusive distributor of renowned Korean skincare brands in Bangladesh.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="#brands">Brands</a></li>
+                        <li><a href="#special">Special Sale</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-phone"></i> +880 1234 567890</p>
+                    <p><i class="fas fa-envelope"></i> info@skinbliss.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SkinBliss. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

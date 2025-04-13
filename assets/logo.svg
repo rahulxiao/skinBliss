@@ -1,0 +1,20 @@
+<svg width="160" height="48" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 10C10 8.89543 10.8954 8 12 8H16C17.1046 8 18 8.89543 18 10V21C18 22.1046 17.1046 23 16 23H12C10.8954 23 10 22.1046 10 21V10Z" fill="#FF69B4"/>
+  <path d="M10 12.5C12 10.5 16 10.5 18 12.5" stroke="#FF69B4" stroke-width="2"/>
+  <path d="M10 17.5C12 15.5 16 15.5 18 17.5" stroke="#FF69B4" stroke-width="2"/>
+  <path d="M22 8L22 23" stroke="#FF69B4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26 8L26 23" stroke="#FF69B4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M30 8H34C35.1046 8 36 8.89543 36 10V21C36 22.1046 35.1046 23 34 23H30C28.8954 23 28 22.1046 28 21V10C28 8.89543 28.8954 8 30 8Z" fill="#FF69B4"/>
+  <path d="M30 15.5H36" stroke="white" stroke-width="1"/>
+  <path d="M40 23L40 8" stroke="#FF69B4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M40 15.5H43" stroke="#FF69B4" stroke-width="2"/>
+  <path d="M50 8L50 23" stroke="#FF69B4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M46 8L46 23" stroke="#FF69B4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M54 8H62C63.1046 8 64 8.89543 64 10V12C64 13.1046 63.1046 14 62 14H58V17H62C63.1046 17 64 17.8954 64 19V21C64 22.1046 63.1046 23 62 23H54V8Z" fill="#FF69B4"/>
+  <path d="M66 8L66 23" stroke="#FF69B4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M68 8H76C77.1046 8 78 8.89543 78 10V21C78 22.1046 77.1046 23 76 23H68V8Z" fill="#FF69B4"/>
+  <path d="M68 15.5H78" stroke="white" stroke-width="1"/>
+  <path d="M82 8H90C91.1046 8 92 8.89543 92 10V12C92 13.1046 91.1046 14 90 14H86V17H90C91.1046 17 92 17.8954 92 19V21C92 22.1046 91.1046 23 90 23H82V8Z" fill="#FF69B4"/>
+  <path d="M96 8H104C105.105 8 106 8.89543 106 10V12C106 13.1046 105.105 14 104 14H100V17H104C105.105 17 106 17.8954 106 19V21C106 22.1046 105.105 23 104 23H96V8Z" fill="#FF69B4"/>
+  <text x="95" y="34" font-family="Arial" font-size="10" fill="#FF69B4">SKINBLISS</text>
+</svg>

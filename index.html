@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinBliss - Premium Skincare Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="public/images/logo.jpeg" alt="SkinBliss Logo" class="logo-img">
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="#skincare">Skin Care</a></li>
+                        <li><a href="#special">Special Sale</a></li>
+                    </ul>
+                </nav>
+                <div class="header-icons">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search products...">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <a href="#" class="wishlist-icon"><i class="far fa-heart"></i></a>
+                    <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#skincare">Skin Care</a></li>
+            <li><a href="#special">Special Sale</a></li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Clean Beauty</h1>
+                <p>Exclusive distributor of renowned Korean skincare brands in Bangladesh</p>
+                <a href="#featuredProducts" class="btn primary-btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skincare" id="skincare">
+        <div class="container">
+            <h2 class="section-title">Skin Care</h2>
+            <div class="skincare-content">
+                <p>Discover our premium range of Korean skincare products designed to nourish, hydrate, and revitalize your skin. Our carefully selected products contain natural ingredients that address various skin concerns.</p>
+                <div class="skincare-features">
+                    <div class="skincare-feature">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Natural Ingredients</h3>
+                        <p>Products enriched with natural extracts</p>
+                    </div>
+                    <div class="skincare-feature">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Dermatologically Tested</h3>
+                        <p>Safe for all skin types</p>
+                    </div>
+                    <div class="skincare-feature">
+                        <i class="fas fa-ban"></i>
+                        <h3>No Harmful Chemicals</h3>
+                        <p>Free from parabens and sulfates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Products</h2>
+                <a href="#featuredProducts" class="view-all">View All</a>
+            </div>
+            <div class="products-grid" id="featuredProducts">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="special-offers" id="special">
+        <div class="container">
+            <h2 class="section-title">Special Offers</h2>
+            <div class="offers-container">
+                <div class="offer-card">
+                    <div class="offer-content">
+                        <h3>Eid Special Sale</h3>
+                        <p>Up to 20% off on selected items</p>
+                        <a href="#" class="btn secondary-btn">View Offer</a>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-content">
+                        <h3>New Arrivals</h3>
+                        <p>Check out our latest products</p>
+                        <a href="#" class="btn secondary-btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Get the latest updates on new products and special promotions</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn primary-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>SkinBliss</h3>
+                    <p>We are the exclusive distributor of renowned Korean skincare brands in Bangladesh.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#skincare">Skin Care</a></li>
+                        <li><a href="#special">Special Sale</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, Dhaka, Bangladesh</p>
+                    <p><i class="fas fa-phone"></i> +880 1234 567890</p>
+                    <p><i class="fas fa-envelope"></i> info@skinbliss.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SkinBliss. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
