@@ -38,11 +38,11 @@ const products = [
         sku: "IN-RB-CF-002",
         category: "Cleanser",
         tags: ["brightening", "rice", "cleanser", "Korean"],
-        image: "/public/images/products/product2.jpeg",
+        image: "product2.jpeg",
         images: [
-            "/public/images/products/product2.jpeg",
-            "/public/images/products/product2.jpeg",
-            "/public/images/products/product2.jpeg"
+            "product2.jpeg",
+            "product2.jpeg",
+            "product2.jpeg"
         ],
         inStock: true,
         rating: 4.7,
@@ -62,11 +62,11 @@ const products = [
         sku: "SF-RM-WO-003",
         category: "Mask",
         tags: ["rice", "mask", "organic", "wash-off"],
-        image: "/public/images/products/product3.jpeg",
+        image: "product3.jpeg",
         images: [
-            "/public/images/products/product3.jpeg",
-            "/public/images/products/product3.jpeg",
-            "/public/images/products/product3.jpeg"
+            "product3.jpeg",
+            "product3.jpeg",
+            "product3.jpeg"
         ],
         inStock: true,
         rating: 4.9,
@@ -86,40 +86,17 @@ const products = [
         sku: "ME-RW-FW-004",
         category: "Cleanser",
         tags: ["rice water", "face wash", "chemical-free", "eco-friendly"],
-        image: "/public/images/products/product4.jpeg",
+        image: "product4.jpeg",
         images: [
-            "/public/images/products/product4.jpeg",
-            "/public/images/products/product4.jpeg",
-            "/public/images/products/product4.jpeg"
+            "product4.jpeg",
+            "product4.jpeg",
+            "product4.jpeg"
         ],
         inStock: true,
         rating: 4.6,
         reviews: 52
     },
-    {
-        id: 5,
-        name: "Rice Water Bright Cleansing Foam",
-        brand: "The Face Shop",
-        price: 1200,
-        originalPrice: 1500,
-        discount: 20,
-        description: "Mid-range, organic Korean skincare that's premium yet affordable. This rice water cleansing foam uses locally sourced ingredients and creates a distinctive local identity while maintaining international quality.",
-        ingredients: "Water, Rice Extract, Glycerin, Sodium Cocoyl Isethionate, Centella Asiatica Extract, Panthenol, Allantoin, Sodium Hyaluronate",
-        howToUse: "Dispense a small amount and lather with water. Massage onto damp face in circular motions. Rinse thoroughly with lukewarm water.",
-        size: "150ml",
-        sku: "TFS-RW-CF-005",
-        category: "Cleanser",
-        tags: ["cleansing foam", "rice water", "Korean", "brightening"],
-        image: "/public/images/products/product1.jpeg",
-        images: [
-            "/public/images/products/product1.jpeg",
-            "/public/images/products/product1.jpeg",
-            "/public/images/products/product1.jpeg"
-        ],
-        inStock: true,
-        rating: 4.5,
-        reviews: 42
-    }
+  
 ];
 
 // Function to format price in BDT
