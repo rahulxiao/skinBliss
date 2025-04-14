@@ -14,11 +14,11 @@ const products = [
         sku: "TBS-RW-M-001",
         category: "Cleanser",
         tags: ["hydrating", "rice water", "moisturizer", "sustainable"],
-        image: "https://i.postimg.cc/QtKXYpVy/product1.jpg",
+        image: "product1.jpeg",
         images: [
-            "https://i.postimg.cc/QtKXYpVy/product1.jpg",
-            "https://i.postimg.cc/QtKXYpVy/product1.jpg",
-            "https://i.postimg.cc/QtKXYpVy/product1.jpg"
+            "product1.jpeg",
+            "product1.jpeg",
+            "product1.jpeg"
         ],
         inStock: true,
         rating: 4.8,
